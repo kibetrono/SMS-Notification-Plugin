@@ -1,0 +1,21 @@
+{
+    "name": "osenco/wc-soft-notify",
+    "description": "SMS Notifications via SoftSms in Tanzania",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Osen Concepts",
+            "email": "hi@osen.co.ke"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Osen\\Soft\\Notify\\": "src/"
+        }
+    }
+}
